@@ -1,0 +1,302 @@
+@media (min-width: 600px) and (max-width: 1251px) {
+    .header-bottom-2 {
+        display: none;
+    }
+    
+    .apresentacao {
+        padding: 100px 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-bottom: 150px;
+    }
+
+    .left-desc h1 {
+        font-size: 40px;
+    }
+
+    .ap-left .left-desc {
+        margin-left: 0;
+    }
+
+    .apresentacao .right-1 {
+        margin-left: 50px;
+    }
+
+    .apresentacao .right-1 img {
+        width: 550px;
+        margin-left: 0;
+    }
+
+    .apresentacao .right-2 {
+        width: 225px;
+        height: 420px;
+        border: 5px solid #000;
+        position: relative;
+        right: 260px;
+    }
+
+    .right-2 .right-comp-2 img {
+        width: 80px;
+    }
+
+    .right-2 .right-comp p {
+        font-size: 25px;
+    }
+
+    .vem-de-nike {
+        width: auto;
+        height: auto;
+        text-align: center;
+        flex-direction: column-reverse;
+        margin: 0 50px;
+    }
+
+    .vem-de-nike .vem-left img {
+        bottom: -5px;
+    }
+
+    .vem-de-nike .vem-right {
+        margin-top: 50px;
+    }
+
+    .vem-de-nike .vem-right p {
+        width: auto;
+        margin: 0 60px;
+    }
+
+    .icones {
+        text-align: center;
+        margin-bottom: 35px;
+        margin-left: 0;
+    }
+
+    .divisao-componentes img {
+        height: 319px;
+    }
+
+    .divisao-componentes h1 {
+        font-size: 20px;
+    }
+    
+    .divisao-componentes p {
+        width: 400px;
+        font-size: 14px;
+    }
+    
+    .divisao-componentes button {
+        font-size: 12px;
+    }
+
+}
+
+
+@media (min-width: 300px) and (max-width: 599px) {
+    .logo-jordan, .header-bottom nav ul {
+        display: none;
+    }
+    
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+
+    header .header-top {
+        border-bottom: 0;
+    }
+
+    .header-bottom .menu-mobile {
+        position: relative;
+        right: 80px;
+    }
+
+    .header-bottom nav ul {
+        width: 200px;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 18px;
+        text-align: center;
+        text-transform: uppercase;
+        background-color: #fff;
+        flex-direction: column;
+        z-index: 2;
+    }
+
+    .header-bottom nav ul.active {
+        display: flex;
+    }
+
+    .header-bottom-2 .buy, .header-bottom-2 .heart {
+        display: none;
+    }
+
+    .logo-nike, .menu-mobile  {
+        width: 100%;
+        display: flex;
+        margin-bottom: 10px;
+    }
+    
+    .apresentacao {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .apresentacao .left-desc {
+        padding-top: 100px;
+        align-items: center;     
+    }
+
+    .left-desc i {
+        width: auto;
+        font-size: 14px;
+        line-height: 22px;
+        padding: 0 15px;
+    }
+
+    .apresentacao .left-desc h1 {
+        max-width: 100%;
+        width: 95%;
+        font-size: 24px;
+    }
+
+    .apresentacao .ap-left {
+        margin-left: 0;
+        margin: 0 20px;
+    }
+
+    .ap-left .left-desc {
+        margin-left: 0;
+    }
+
+    button {
+        width: 120px;
+        padding: 10px 0;
+        font-size: 12px;
+    }
+
+    .ap-right {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .apresentacao .right-1 img {
+        width: 320px;
+        top: 20px;
+        right: 25px;
+        margin-left: 0;
+    }
+
+    .apresentacao .right-2 {
+        width: 180px;
+        height: 330px;
+        border: 5px solid #000;
+        position: relative;
+        right: 15px;
+        bottom: 280px;
+        margin-left: 30px;
+    }
+
+    .right-2 .right-comp-2 img {
+        width: 80px;
+    }
+
+    .right-2 .right-comp p {
+        font-size: 20px;
+    }
+
+    .vem-de-nike {
+        width: auto;
+        height: auto;
+        text-align: center;
+        flex-direction: column-reverse;
+        margin: 0 30px;
+    }
+
+    .vem-de-nike .vem-right h1 {
+        font-size: 22px;
+    }
+
+    .vem-de-nike .vem-left img {
+        width: 190px;
+        bottom: -5px;
+    }
+
+    .vem-de-nike .vem-right {
+        margin-top: 30px;
+    }
+
+    .vem-de-nike .vem-right p {
+        width: auto;
+        margin: 0 30px;
+    }
+
+    .sapatos-nike h3 {
+        font-size: 14px;
+    }
+
+    .icones {
+        text-align: center;
+        margin-bottom: 35px;
+        margin-left: 0;
+        font-size: 16px;
+    }
+
+    .divisao-componentes img {
+        height: 180px;
+    }
+
+    .divisao-componentes h1 {
+        width: 220px;
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .divisao-componentes p {
+        width: 250px;
+        font-size: 14px;
+    }
+    
+    .divisao-componentes button {
+        font-size: 10px;
+    }
+
+    .encontre {
+        margin: 0 10px;
+        gap: 20px;
+    }
+
+    .encontre-itens {
+        width: 168px;
+        height: 345px;
+    }
+
+    .encontre-itens img {
+        width: 168px;
+        height: 239px;
+    }
+
+    .encontre-itens h2 {
+        font-size: 12px;
+    }
+
+    .encontre-itens p {
+        width: 150px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    footer {
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    .tenis-informacoes {
+        display: none;
+    }
+
+}

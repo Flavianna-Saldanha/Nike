@@ -558,3 +558,15 @@ footer .redes {
     background-color: #d9d9d9;
 }
 
+footer {
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .aviso {
+    max-width: 1185px;
+    width: 90%;
+    text-align: center;
+}
